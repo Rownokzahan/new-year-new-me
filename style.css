@@ -20,7 +20,7 @@ p {
     gap: 30px
 }
 
-.btn-primary {
+.btn-primary, .btn-secondary{
     color: #005FAC;
     background-color: #fff;
     width: max-content;
@@ -30,9 +30,14 @@ p {
     border-radius: 5px;
     font-weight: 700;
 }
+.btn-secondary{
+    background-color: #005FAC;
+    color: white;
+}
 
 section {
-    margin: 200px 100px;
+    margin: 100px;
+    margin-top: 0;
 }
 
 .section-title {
@@ -135,6 +140,21 @@ section {
     width: 50%;
 }
 
+/*---------Be Punctual Section--------- */
+
+.become-punctual{
+    background-image: url(images/clock.jpg),  linear-gradient(to right, #024983 0%, rgba(0, 95, 172, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:color-burn;
+    border-radius: 10px;
+}
+
+.become-punctual .content{
+    padding: 30px;
+    color: white;
+}
+
 /* ----------------Main End--------------------- */
 
 /* ------Footer------- */
@@ -168,11 +188,6 @@ footer input[type="text"]{
 }
 
 footer input::placeholder{
-    color: white;
-}
-
-footer .btn-primary{
-    background-color: #005FAC;
     color: white;
 }
 
