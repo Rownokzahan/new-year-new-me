@@ -98,7 +98,9 @@ section {
 
 .material-symbols-outlined {
     color: green;
-    margin-right: 10px;
+    margin-right: 5px;
+    position: relative;
+    top:4px
 }
 
 /*---------Plans section----------- */
